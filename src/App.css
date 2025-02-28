@@ -43,9 +43,14 @@ border-bottom: 1px solid lightgray;
   flex: 1 1 auto;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 2rem;
   /* border: 1px solid yellow; */
   background: lightgray;
+}
+
+.content p {
+  font-family: 'gilroy-bold';
+  font-size: 1.3rem;
 }
 
 .footer {
@@ -54,4 +59,14 @@ border-bottom: 1px solid lightgray;
   justify-content: center;
   gap: 1rem;
   /* border: 1px solid green; */
+}
+
+.content-list {
+  list-style: inside;
+  font-size: 0.9rem;
+}
+
+.content-list > li {
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
 }
