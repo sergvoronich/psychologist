@@ -1,0 +1,57 @@
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+}
+
+.header {
+  /* border: 1px solid blueviolet; */
+display: flex;
+justify-content: center;
+padding: 10px;
+border-bottom: 1px solid lightgray;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* border: 1px solid black; */
+}
+
+.header-name {
+  font-size: 24px;
+  font-family: "gilroy-semibold";
+}
+
+.header-position {
+  font-size: 16px;
+  font-family: "gilroy";
+}
+
+.navigation {
+  /* border: 1px solid red; */
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  /* border: 1px solid yellow; */
+  background: lightgray;
+}
+
+.footer {
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* border: 1px solid green; */
+}
