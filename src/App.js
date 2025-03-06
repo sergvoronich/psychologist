@@ -7,7 +7,7 @@ function App() {
         <header>
           <div className='header-container'>
             <div>
-              <img alt='' height={36} src='/psychology.png' />
+              <img alt='' height={36} src='/psychologist/psychology.png' />
             </div>
             <div>
               <div className='header-name'>Воронич Сергей Викторович</div>
@@ -33,7 +33,7 @@ function App() {
           </ul>
         </div>
         <div>
-          <img alt='' height={350} src='/photo_new_2_no_bg.png' />
+          <img alt='' height={350} src='/psychologist/photo_new_2_no_bg.png' />
         </div>
       </div>
       <div className='footer'>
